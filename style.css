@@ -1,0 +1,141 @@
+/*PARTE DO BODY*/
+
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background: url(img/ft-ceu.jpg);
+background-size: cover;
+background-position: center;
+background-image: fixed;
+}
+
+/*PARTE DO CADASTRO*/
+
+.cadastro {
+width: 420px;
+background: rgb(27, 24, 27);
+color: #fff;
+border-radius: 20px;
+padding: 30px 15px;
+opacity: 0.8;
+}
+
+
+.logoo {
+margin-left: 14vh;
+}
+
+.cadastro .cadastro-usuario {
+width: 100%;
+height: 50px;
+padding-top: 2px;
+margin: 20px 0;
+}
+
+.cadastro-usuario input {
+width: 48%;
+height: 100%;
+background: transparent;
+border: none;
+outline: none;
+border: 2px solid rgba(255, 255, 255, .2);
+border-radius: 100px;
+font-size: 12.8px;
+background-color: #dfd9d9;
+color: #000;
+padding: 20px 10px;
+}
+
+.cadastro-usuario-email input {
+width: 100%;
+height: 100%;
+background: transparent;
+border: none;
+outline: none;
+border: 2px solid rgba(255, 255, 255, .2);
+border-radius: 100px;
+font-size: 13.4px;
+background-color: #dfd9d9;
+color: #000;
+padding: 13px 10px;
+padding-right: 30px;
+text-align: start;
+}
+
+.cadastro-usuario input::placeholder {
+color: #817f7f;
+}
+
+.cadastro .label {
+margin-left: 15px;
+}
+
+.cadastro .botao {
+width: 100%;
+height: 45px;
+background: #dfd9d9;
+border: none;
+outline: none;
+border-radius: 40px;
+box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+cursor: pointer;
+font-size: 18px;
+color: #333;
+font-weight: 700;
+margin-top: 30px;
+}
+
+.cadastro .botao:hover {
+background-color: #b9750f;
+color: #fff;
+transition: .3s;
+}
+
+/*PARTE RESPONSIVA DO CADASTRO NO ANDROID*/
+
+@media screen and (max-width:360px) {
+.cadastro {
+height: 100%;
+width: 85%;
+}
+
+h1 {
+font-size: 21px;
+padding-left: 15px;
+ }
+
+.logoo {
+padding-right: 15px;
+margin-left: 80px;
+ }
+
+.btn .botao {
+width: 90%;
+}
+}
+
+/*PARTE RESPONSIVA PARA O IPHONE*/
+
+@media screen and (max-width: 415px) {
+.cadastro {
+ height: 100%;
+width: 85%;
+}
+
+h1 {
+font-size: 21px;
+padding-left: 15px;
+}
+
+.logoo {
+margin-left: 85px;
+}
+
+.btn .botao {
+width: 90%;
+margin-left: 18px;
+}
+
+}
